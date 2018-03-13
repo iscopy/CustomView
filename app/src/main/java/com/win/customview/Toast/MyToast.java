@@ -1,4 +1,4 @@
-package com.win.customview.Toast;
+package com.win.customview.toast;
 
 import android.content.Context;
 import android.view.LayoutInflater;

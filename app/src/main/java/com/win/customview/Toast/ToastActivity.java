@@ -1,4 +1,4 @@
-package com.win.customview.Toast;
+package com.win.customview.toast;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".toast.ToastActivity"></activity>
+        <activity android:name=".toast.ToastActivity" />
+        <activity android:name=".bomb_box.BombBoxActivity"></activity>
     </application>
 
 </manifest>
