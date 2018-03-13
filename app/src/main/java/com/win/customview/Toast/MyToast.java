@@ -15,8 +15,6 @@ import com.win.customview.R;
 
 public class MyToast{
 
-    private int image;
-    private String texts;
     private Toast toast;
 
     public MyToast(Context context,int image,String texts) {
