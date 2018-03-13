@@ -31,6 +31,12 @@
                 android:layout_height="wrap_content"
                 android:text="自定义弹框"/>
 
+            <Button
+                android:id="@+id/calendar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义滚动日历"/>
+
 
 
         </LinearLayout>

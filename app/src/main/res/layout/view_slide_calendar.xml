@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--滑动选择日历的布局-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/customDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="选择日期"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.win.customview.slide_calendar.CalendarView
+                android:id="@+id/year"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="100dp"/>
+
+            <com.win.customview.slide_calendar.CalendarView
+                android:id="@+id/month"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="100dp"/>
+
+            <com.win.customview.slide_calendar.CalendarView
+                android:id="@+id/day"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="100dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

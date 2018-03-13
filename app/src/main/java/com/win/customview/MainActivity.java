@@ -7,12 +7,14 @@ import android.view.View;
 import android.widget.Button;
 
 import com.win.customview.bomb_box.BombBoxActivity;
+import com.win.customview.slide_calendar.SlideCalendarActivity;
 import com.win.customview.toast.ToastActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Button toast;//自定义消息框
     private Button bomb_box;//自定义弹框
+    private Button calendar;//自定义消息框
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,10 +25,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void init(){
         toast = (Button)findViewById(R.id.toast);
         bomb_box = (Button)findViewById(R.id.bomb_box);
+        calendar = (Button)findViewById(R.id.calendar);
     }
     public void initData(){
         toast.setOnClickListener(this);
         bomb_box.setOnClickListener(this);
+        calendar.setOnClickListener(this);
     }
 
     @Override
@@ -37,6 +41,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.bomb_box://弹框
                 startActivity(new Intent(MainActivity.this,BombBoxActivity.class));
+                break;
+            case R.id.calendar://滚动日历
+                startActivity(new Intent(MainActivity.this,SlideCalendarActivity.class));
                 break;
         }
     }

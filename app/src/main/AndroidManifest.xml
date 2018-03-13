@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".toast.ToastActivity" />
-        <activity android:name=".bomb_box.BombBoxActivity"></activity>
+        <activity android:name=".bomb_box.BombBoxActivity" />
+        <activity android:name=".slide_calendar.SlideCalendarActivity"></activity>
     </application>
 
 </manifest>
