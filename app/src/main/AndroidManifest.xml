@@ -17,7 +17,8 @@
         </activity>
         <activity android:name=".toast.ToastActivity" />
         <activity android:name=".bomb_box.BombBoxActivity" />
-        <activity android:name=".slide_calendar.SlideCalendarActivity"></activity>
+        <activity android:name=".slide_calendar.SlideCalendarActivity" />
+        <activity android:name=".column.ColumnActivity"></activity>
     </application>
 
 </manifest>

@@ -37,6 +37,12 @@
                 android:layout_height="wrap_content"
                 android:text="自定义滚动日历"/>
 
+            <Button
+                android:id="@+id/column"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义绘制柱状图"/>
+
 
 
         </LinearLayout>
