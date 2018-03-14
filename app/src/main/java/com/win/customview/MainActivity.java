@@ -10,7 +10,7 @@ import com.win.customview.bomb_box.BombBoxActivity;
 import com.win.customview.column.ColumnActivity;
 import com.win.customview.slide_calendar.SlideCalendarActivity;
 import com.win.customview.toast.ToastActivity;
-
+//点击这里的按钮可以到其他自定义模块
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Button toast;//自定义消息框
